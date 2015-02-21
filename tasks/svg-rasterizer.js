@@ -2,7 +2,7 @@
 
 module.exports = function (grunt) {
   var pkg = require('../package.json');
-  var taskName = pkg.name.tolowerCase().replace(/-(.)/g, function (m, l) {
+  var taskName = pkg.name.toLowerCase().replace(/-(.)/g, function (m, l) {
     return l.toUpperCase();
   });
   var taskDescription = pkg.description;
@@ -37,8 +37,6 @@ module.exports = function (grunt) {
       if (child.error) {
         grunt.fail.warn(child.error);
       }
-
-      grunt.log.writeln('File "' + file.dest + '" generated.');
     });
   });
 };
