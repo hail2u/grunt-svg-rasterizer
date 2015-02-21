@@ -37,8 +37,6 @@ module.exports = function (grunt) {
       if (child.error) {
         grunt.fail.warn(child.error);
       }
-
-      grunt.log.writeln('File "' + file.dest + '" generated.');
     });
   });
 };
