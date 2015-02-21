@@ -45,8 +45,14 @@ Task name is `svgRasterizer`.
           width: 16
         },
 
-        dest: 'build/images/favicon-16.png',
+        dest: 'build/img/favicon-16.png',
         src: 'src/img/favicon.svg'
+      },
+
+      gif: {
+        // Control output format by its filename
+        dest: 'build/img/logo.gif',
+        src: 'src/img/logo.svg'
       }
     }
 
