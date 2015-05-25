@@ -15,10 +15,7 @@
     "png",
     "svg"
   ],
-  "license": {
-    "type": "MIT",
-    "url": "http://hail2u.mit-license.org/2015"
-  },
+  "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
