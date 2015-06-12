@@ -26,11 +26,12 @@ module.exports = function (grunt) {
     }
 
     this.files.forEach(function (file) {
-      args.push('-f');
-      args.push(file.src[0]);
-      args.push('-e');
-      args.push(file.dest);
-      var child = spawn(which(cmd), args, {
+      var a = args.slice(0);
+      a.push('-f');
+      a.push(file.src[0]);
+      a.push('-e');
+      a.push(file.dest);
+      var child = spawn(which(cmd), a, {
         stdio: 'inherit'
       });
 
