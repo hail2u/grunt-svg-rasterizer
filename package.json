@@ -8,11 +8,7 @@
   },
   "homepage": "https://github.com/hail2u/grunt-svg-rasterizer",
   "keywords": [
-    "bmp",
-    "gif",
     "gruntplugin",
-    "inkscape",
-    "png",
     "svg"
   ],
   "license": "MIT",
