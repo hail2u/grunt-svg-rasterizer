@@ -1,5 +1,5 @@
 {
-  "name": "grunt-svg-rasterizer",
+  "name": "@hail2u/grunt-svg-rasterizer",
   "description": "Rasterize SVG file with Inkscape CLI.",
   "version": "0.1.1",
   "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
@@ -12,7 +12,6 @@
     "svg"
   ],
   "license": "MIT",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/hail2u/grunt-svg-rasterizer.git"
