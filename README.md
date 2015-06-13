@@ -10,7 +10,7 @@ INSTALL
 This Grunt plugin does not available in npm registry yet, so you must install
 from my GitHub repository:
 
-    $ npm install hail2u/grunt-svg-rasterizer
+    $ npm install @hail2u/grunt-svg-rasterizer
 
 Then, load this task in `Gruntfile.js` of your project:
 
