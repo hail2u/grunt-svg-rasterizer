@@ -2,9 +2,18 @@
 
 module.exports = function (grunt) {
   var pkg = require('../package.json');
-  var taskName = pkg.name.toLowerCase().replace(/^grunt-/, '').replace(/-(.)/g, function (m, l) {
-    return l.toUpperCase();
-  });
+  var taskName = pkg.name.toLowerCase().replace(
+    /^@.*?\//,
+    ''
+  ).replace(
+    /^grunt-/,
+    ''
+  ).replace(
+    /-(.)/g,
+    function (m, l) {
+      return l.toUpperCase();
+    }
+  );
   var taskDescription = pkg.description;
 
   grunt.registerMultiTask(taskName, taskDescription, function () {
