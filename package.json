@@ -12,6 +12,7 @@
     "svg"
   ],
   "license": "MIT",
+  "main": "tasks/svg-rasterizer.js",
   "peerDependencies": {
     "grunt": ">=0.4.0"
   },
